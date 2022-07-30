@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    background-image: url(./assets/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    height: fit-content;
+    background-color: rgb(224, 232, 255);
+}
+
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    width:30%;
+    height:540px;
+    margin:auto;
+    margin-top: 75px;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.c-1{
+    background-image: url(./assets/images/illustration-hero.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.c-1 .text{
+    width:286px;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 14px;
+    color:rgb(123, 129, 153);
+}
+
+.c-1 h1{
+    margin-top: 215px;
+    color: rgb(29, 39, 74);
+}
+
+.container .c-2{
+    background-color:rgb(248, 249, 254);
+    width: 80%;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.c-2 img{
+    width: 52px;
+    float: left;
+    padding-top: 19px;
+    padding-left: 15px;
+}
+
+.c-2 h1{
+    padding-top: 16px;
+    padding-right: 128px;
+    font-size: 14px;
+    color:rgb(29, 42, 74);
+}
+
+.c-2 p{
+    padding-right: 135px;
+    font-size: 14px;
+    color: rgb(108, 116, 139);
+}
+
+.c-2 .click{
+    padding-left: 226px;
+    margin-top: -29px;  
+    font-weight: 500; 
+    color: rgb(89, 79, 201)
+}
+
+.click .cg:hover{
+    text-decoration: none;
+    color: rgb(157, 147, 255);  
+}
+
+
+.btn{
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: blue;
+    width:80%;
+    height: 40px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.btn:hover{
+    background-color: rgb(118, 108, 241);
+}
+
+.btn .btn-1{
+    text-decoration: none;
+    color:white;
+}
+
+
+.cs{
+    font-size: 13px;
+    padding-bottom: 25px;
+    color: white;
+    font-weight: 500;
+    color: rgb(110, 120, 147)
+}
+
+.cs:hover{
+    color:rgb(33, 45, 71);
+    cursor: pointer;
+}
+
+@media screen and (max-width:480px) {
+    .container{
+        width: 90%;
+        height:auto;
+    }
+}
+
+
+
+@media screen and (max-width:480px) {
+    .c-1 .text h1{
+        width: 100%;
+        height:auto;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .c-2 .click p h1{
+        width: 100%;
+        height:auto;
+    }
+}
